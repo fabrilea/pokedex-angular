@@ -1,1 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
+div.grass{
+    background-color: greenyellow;
+}
+
+div.fire{
+    background-color: red;
+}
+
+div.water{
+    background-color: aquamarine;
+}
+
+div.psychic{
+    background-color: palevioletred;
+}
+
+div.fairy{
+    background-color: pink;
+}
+
+div.dark{
+    background-color: black;
+}
+
+div.ghost{
+    background-color: rgb(64, 23, 64);
+}
+
+div.dragon{
+    background-color: blue;
+}
+
+div.ground{
+    background-color: burlywood;
+}
+
+div.flying{
+    background-color: skyblue;
+}
+
+div.steel{
+    background-color: slategrey;
+}
+
+div.bug{
+    background-color: rgb(125, 255, 125);
+}
+
+div.electric{
+    background-color: yellow;
+}
+
+div.normal{
+    background-color: beige;
+}
+
+div.ice{
+    background-color: aqua;
+}
+
+div.fighting{
+    background-color: rgb(150, 7, 7);
+}
+
+div.rock{
+    background-color: rgb(50, 16, 16);
+}
+
+div.poison{
+    background-color: rgb(180, 55, 180);
+}

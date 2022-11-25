@@ -1,11 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { PokedexService } from '../services/pokedex.services';
 
-
 @Component({
   selector: 'app-pokemon-list',
-  templateUrl: './pokemon-list.component.html',
-  styleUrls: ['./pokemon-list.component.css']
+  templateUrl: './pokemon-list.component.html'
 })
 export class PokemonListComponent implements OnInit {
   pokemons: any[] = [];
@@ -30,7 +28,6 @@ export class PokemonListComponent implements OnInit {
           this.pokedexService.getMoreData(result.name)
           .subscribe((uniqResponse: any) => {
             this.pokemons.push(uniqResponse);
-            console.log(this.pokemons);
           });
         });
       });
