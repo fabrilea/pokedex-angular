@@ -1,6 +1,8 @@
 # PokedexApp
 Este proyecto se basa en recrer la funcionalidad de una pokédex de manera dinámica.
 
+(Se debe incluir el paquete 'npx-pagination' para que funcione la página en stackblitz)
+
 Por el momento se cumplen los siguientes objetivos:
 
   -Ruteo, dos url: home y about
